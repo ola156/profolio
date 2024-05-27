@@ -1,0 +1,28 @@
+Public Class Form1
+    Private Sub btnCalculate_Click(sender As Object, e As EventArgs) Handles btnCalculate.Click
+        ' Variables to store total credit hours and total grade points
+        Dim totalCredit As Double = 0
+        Dim totalGradePoints As Double = 0
+
+        ' Loop through each subject to calculate total credit hours and grade points
+        For i As Integer = 1 To 5 ' Assuming 5 subjects
+            Dim credit As Double
+            Dim grade As Double
+
+            ' Get credit and grade from text boxes
+            If Double.TryParse(Me.Controls("txtCredit" & i).Text, credit) AndAlso
+               Double.TryParse(Me.Controls("txtGrade" & i).Text, grade) Then
+                totalCredit += credit
+                totalGradePoints += credit * grade
+            End If
+        Next
+
+        ' Calculate GPA
+        Dim gpa As Double = totalGradePoints / totalCredit
+
+        ' Display GPA
+        lblGPA.Text = "GPA: " & gpa.ToString("0.00")
+    End Sub
+End Class
+
+Ensure you have text boxes named txtCredit1, txtCredit2, ..., txtCredit5 for credit hours and txtGrade1, txtGrade2, ..., txtGrade5 for grades. Also, there should be a button named btnCalculate to trigger the GPA calculation, and a label named lblGPA to display the calculated GPA. Adjust the control names according to your UI design.
