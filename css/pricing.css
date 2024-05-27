@@ -1,0 +1,187 @@
+.pricing-section {
+  padding: 80px 0px;
+}
+
+.pricing-section-div {
+  margin: 0px 46px;
+  padding: 0px 20px;
+}
+
+.pricing-section-div h3 {
+  font-size: 40px;
+
+  margin-bottom: 60px;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+.span-pricing {
+  font-size: 40px;
+  margin-right: 7px;
+  font-family: sans-serif;
+  font-weight: 100;
+  color: #f85c70;
+  margin-right: 7px;
+}
+
+.card-main-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-div {
+  border: 1px;
+  border-color: rgb(219, 218, 218);
+  border-style: solid;
+  padding: 30px;
+  width: 16%;
+  height: 380px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.card-div h3 {
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 100;
+  margin-bottom: 25px;
+  margin-top: 10px;
+}
+
+.card-header {
+  position: relative;
+  margin-bottom: 38px;
+}
+
+.card-header sub {
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: 10;
+  position: relative;
+  top: -37px;
+  right: -8px;
+}
+
+.span-0 {
+  font-size: 50px;
+  font-weight: 600;
+  font-family: sans-serif;
+  margin: 0px 0px;
+}
+
+.mo {
+  font-size: 12px;
+  font-family: sans-serif;
+  font-weight: 100;
+  color: grey;
+}
+
+.card-body ul li {
+  font-size: 15px;
+  font-weight: 100;
+  font-family: sans-serif;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.card-body ul li span {
+  font-size: 15px;
+  font-family: sans-serif;
+  color: grey;
+  margin-left: 3px;
+  font-weight: 100;
+}
+
+.card-button {
+  width: 150px;
+  height: 45px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  background-color: #f85c70;
+  border-radius: 22px;
+  color: white;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 100;
+  margin-top: 47px;
+}
+
+.card-button:hover {
+  background-color: #f83750;
+}
+
+.card2-div {
+  border: 1px;
+  border-color: rgb(219, 218, 218);
+  border-style: solid;
+  padding: 30px;
+  width: 16%;
+  height: 440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.card2-div h3 {
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 100;
+  margin-bottom: 25px;
+  margin-top: 10px;
+}
+
+.span-1 {
+  font-size: 50px;
+  font-weight: 600;
+  font-family: sans-serif;
+  margin: 0px 0px;
+  color: #f85c70;
+}
+
+.card2-button {
+  width: 150px;
+  height: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  background-color: #f85c70;
+  border-radius: 22px;
+  color: white;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 100;
+  margin-top: 77px;
+}
+
+.card2-button:hover {
+  background-color: #f83750;
+}
+
+.new {
+  position: absolute;
+  background-color: #f85c70;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  padding-left: 50px;
+  padding-right: 20px;
+  color: white;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: 12px;
+  font-weight: 100;
+  font-family: sans-serif;
+  top: -2px;
+  right: -32px;
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}

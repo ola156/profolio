@@ -1,0 +1,222 @@
+.resume-section {
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+
+.resume-section-div {
+  margin-left: 36px;
+  margin-right: 36px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.resume {
+  font-size: 35px;
+  font-weight: 100;
+  font-family: sans-serif;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.resume span {
+  color: #f85c70;
+  margin-right: 8px;
+}
+
+.main-section-div {
+  display: flex;
+}
+
+.expertise-main-div {
+  padding: 10px;
+  width: 360px;
+  display: inline-block;
+  border: 1px;
+  border-color: rgb(238, 234, 234);
+  border-style: solid;
+  height: 50%;
+}
+
+.expertise-main2-div {
+  padding: 10px;
+  width: 360px;
+  display: inline-block;
+  border: 1px;
+  border-color: rgb(238, 234, 234);
+  border-style: solid;
+  margin-left: 30px;
+  padding-bottom: 15px;
+  height: 60%;
+}
+
+.espertise-div {
+  display: flex;
+}
+
+.header-div {
+  padding: 12px 16px;
+}
+
+.header-div h6 {
+  font-size: 25px;
+  font-weight: 100;
+  font-family: sans-serif;
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+
+.line4 {
+  width: 30px;
+  background-color: #f85c70;
+}
+
+.expertise-body-div {
+  padding: 10px;
+}
+
+.expertise-body-div h6 {
+  font-size: 22px;
+  font-weight: 100;
+  font-family: sans-serif;
+  margin-bottom: 0px;
+  color: #f85c70;
+  margin-top: 10px;
+}
+
+.expertise-body-div p {
+  font-size: 12px;
+  font-weight: 100;
+  font-family: sans-serif;
+  color: rgb(109, 108, 108);
+  margin-bottom: 20px;
+}
+
+.expertise-body-div hr {
+  background-color: rgb(238, 234, 234);
+  height: 1px;
+  border: none;
+}
+
+.skills-main-div {
+  display: inline-block;
+}
+
+.skills-div {
+  border: 1px;
+  border-color: rgb(238, 234, 234);
+  border-style: solid;
+  margin-left: 30px;
+  display: inline-block;
+}
+
+.skills-header {
+  padding: 12px 20px;
+}
+
+.skills-header h6 {
+  font-size: 28px;
+  font-weight: 100;
+  font-family: sans-serif;
+  margin: 0px;
+}
+
+.progress-under-div {
+  width: 360px;
+  background-color: rgb(243, 240, 240);
+  height: 5px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
+
+.progress-div {
+  width: 345px;
+  height: 100%;
+  position: relative;
+  background-color: #f85c70;
+  border-radius: 10px;
+  border: none;
+}
+
+.progress2-div {
+  width: 270px;
+  height: 100%;
+  position: relative;
+  background-color: #f85c70;
+  border-radius: 10px;
+  border: none;
+}
+
+.progress3-div {
+  width: 255px;
+  height: 100%;
+  position: relative;
+  background-color: #f85c70;
+  border-radius: 10px;
+  border: none;
+}
+
+.progress4-div {
+  width: 301px;
+  height: 100%;
+  position: relative;
+  background-color: #f85c70;
+  border-radius: 10px;
+  border: none;
+}
+
+.progress5-div {
+  width: 303px;
+  height: 100%;
+  position: relative;
+  background-color: #f85c70;
+  border-radius: 10px;
+  border: none;
+}
+
+.progress6-div {
+  width: 305px;
+  height: 100%;
+  position: relative;
+  background-color: #f85c70;
+  border-radius: 10px;
+  border: none;
+}
+
+.progress7-div {
+  width: 170px;
+  height: 100%;
+  position: relative;
+  background-color: #f85c70;
+  border-radius: 10px;
+  border: none;
+}
+
+.progress8-div {
+  width: 220px;
+  height: 100%;
+  position: relative;
+  background-color: #f85c70;
+  border-radius: 10px;
+  border: none;
+}
+
+.skills-body-div {
+  padding: 12px 25px;
+}
+
+.skills-body-div span {
+  font-size: 17px;
+  font-weight: 70;
+  color: rgb(144, 143, 145);
+  font-family: sans-serif;
+}
+
+.language-main-div {
+  border: 1px;
+  border-color: rgb(238, 234, 234);
+  border-style: solid;
+  margin-left: 30px;
+  margin-top: 30px;
+}

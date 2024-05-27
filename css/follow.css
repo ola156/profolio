@@ -1,0 +1,83 @@
+.follow-section {
+  background-color: #3a3a40;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.follow-div {
+  padding: 20px;
+  width: 250px;
+  display: flex;
+}
+
+.follow-section-div {
+  width: 1px;
+  height: 120px;
+  background-color: white;
+  position: relative;
+}
+
+.hours-div {
+  padding: 20px;
+  display: inline-block;
+  align-items: start;
+}
+
+.hours-div h3 {
+  font-size: 40px;
+  color: rgb(248, 70, 70);
+  font-family: sans-serif;
+  margin-bottom: 3px;
+  margin-top: 5px;
+}
+
+.hours-div p {
+  color: rgb(199, 197, 197);
+  font-family: sans-serif;
+  font-weight: 10;
+  font-size: 12px;
+}
+
+.follow-div ul li {
+  width: 50%;
+  list-style: none;
+  position: relative;
+  display: inline-block;
+}
+
+.freelance-section {
+  background-color: #3a3a40;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.freelance-div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.freelance-div h2 {
+  font-family: sans-serif;
+  font-weight: 200;
+  font-size: 30px;
+  color: white;
+}
+
+.freelance-div button {
+  width: 150px;
+  height: 40px;
+  background-color: rgb(228, 109, 109);
+  border: none;
+  border-radius: 5px;
+  margin-top: 30px;
+  margin-bottom: 12px;
+  font-family: sans-serif;
+  font-weight: 200;
+}
+
+.freelance-div button:hover {
+  background-color: rgb(129, 13, 13);
+}

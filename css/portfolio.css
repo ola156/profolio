@@ -1,0 +1,95 @@
+.portfolio-section {
+  padding: 50px;
+}
+
+.portfolio-div {
+  margin: 0px 30px;
+}
+
+.portfolio-main-div {
+}
+
+.portfolio-main-div h3 {
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+.span2 {
+  color: #f85c70;
+  margin-right: 10px;
+}
+
+.first-line {
+}
+
+.a-div {
+  width: 380px;
+  margin-left: 37%;
+}
+
+.a-div a {
+  font-weight: 100;
+  font-family: sans-serif;
+  font-size: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: rgb(126, 112, 112);
+}
+
+.divv {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+.a-div hr {
+  width: 381px;
+  border-color: rgb(230, 229, 229);
+  border-style: solid;
+}
+
+.images-div {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.image1 {
+  width: 350px;
+  display: inline-block;
+}
+
+.image2 {
+  width: 350px;
+  margin-bottom: 20px;
+}
+
+.image3 {
+  width: 350px;
+  margin-bottom: 20px;
+}
+
+.image4 {
+  width: 350px;
+  display: inline-block;
+}
+
+.image5 {
+  width: 350px;
+}
+
+.image6 {
+  width: 350px;
+}
+
+.image7 {
+  width: 350px;
+  margin-top: 20px;
+}
+
+.image8 {
+  width: 350px;
+}
